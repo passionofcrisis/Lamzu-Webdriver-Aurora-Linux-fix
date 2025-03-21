@@ -1,4 +1,4 @@
-# Lamzu-Maya-X-Webdriver-Aurora-Linux
+# Lamzu-Maya-X-Webdriver-Aurora-Linux-Fix
 This is a fix to access the Lamzu Aurora/webdriver on chromium on Linux distro's
 
 
