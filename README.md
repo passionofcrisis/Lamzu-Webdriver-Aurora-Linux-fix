@@ -11,7 +11,7 @@ After this the lamzu.net webdriver will find and connect to your mouse.
 
 
 
-Only works for the Lamzu Maya X mouse, but with some adjustments to the code it should work for other mice using Aurora or even mice from other brands.
+This code only works for the Lamzu Maya X mouse, but with some adjustments to the code it might work for other mice using Aurora or even mice from other brands.
 Use the command "sudo dmesg" in the terminal and search for the mouse USB names. You might need to use the dongle and wired connections seperately to find all the info.
 
 
