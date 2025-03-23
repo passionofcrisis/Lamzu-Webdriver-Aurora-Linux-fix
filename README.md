@@ -7,7 +7,7 @@ This is a fix to access the Lamzu Aurora/webdriver on chromium on Linux distro's
 
 We will be adding a udev rule so the chromium based browser will be able to access the mouse.
 Simply copy the Lamzu-Webdriver.rules file to /etc/udev/rules.d/ with admin permission and reboot.
-After this the lamzu.net webdriver will find and connect to your mouse.
+After this the lamzu.net webdriver will connect to your mouse.
 
 
 
