@@ -1,5 +1,5 @@
 # Lamzu-Webdriver-Aurora-Linux-Fix
-This is a fix to access the Lamzu Aurora/webdriver on chromium on Linux distro's
+Fix to access the Lamzu Aurora/webdriver on chromium on Linux distro's
 
 
 
@@ -17,7 +17,7 @@ Use the command "sudo dmesg" in the terminal and search for the mouse USB names.
 
 
 
-If you adjusted to code and made another mouse work, please let me know and i will add this to the code.
+If you adjusted the code and made another mouse work, please let me know and I will add this.
 
 
 
