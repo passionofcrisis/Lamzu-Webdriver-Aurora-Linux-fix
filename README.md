@@ -12,7 +12,7 @@ If this still does not work and you are using the snap version of chromium brows
 
 
 
-This code currently works for the Lamzu Maya X 8k and Lamzu Inca 8k mice.
+This code currently works for the Lamzu Maya X 8k, Lamzu Inca 8k and Lamzu Paro mice. 
 With some adjustments to the code it might work for other mice using Aurora in the future, or even mice from other brands that utilize a webdriver.
 Use the command "sudo dmesg" in the terminal and search for the mouse USB names. You might need to use the dongle and wired connections seperately to find all the info.
 
@@ -22,5 +22,5 @@ If you adjusted the code and made another mouse work, please let me know and I w
 
 
 
-**Credits to Gunther and Stics on the Lamzu discord**
+**Credits to Gunther and Stics on the Lamzu discord, WingofaGriffin on github**
 
