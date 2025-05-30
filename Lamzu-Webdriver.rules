@@ -1,8 +1,8 @@
 # LAMZU Maya X Mouse - Dongle
-SUBSYSTEM=="input", ATTRS{id/vendor}=="373e", ATTRS{name}=="LAMZU LAMZU PARO 1K Receiver", MODE="0666", GROUP="input", TAG+="uaccess"
-SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU PARO 1K Receiver Consumer Control", MODE="0666", GROUP="input", TAG+="uaccess"
-SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU PARO 1K Receiver System Control", MODE="0666", GROUP="input", TAG+="uaccess"
-SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU PARO 1K Receiver Keyboard", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{id/vendor}=="373e", ATTRS{name}=="LAMZU LAMZU Maya X 8K Dongle", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU Maya X 8K Dongle Consumer Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU Maya X 8K Dongle System Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU Maya X 8K Dongle Keyboard", MODE="0666", GROUP="input", TAG+="uaccess"
 
 # LAMZU Maya X Mouse - Direct Device
 SUBSYSTEM=="input", ATTRS{id/vendor}=="373e", ATTRS{name}=="LAMZU LAMZU MAYA X", MODE="0666", GROUP="input", TAG+="uaccess"
