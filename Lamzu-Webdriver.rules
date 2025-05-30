@@ -25,3 +25,29 @@ SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU INCA 8K Receiver Keyboard", MODE="
 #Lamzu INCA 8K Receiver USB device rules
 SUBSYSTEM=="usb", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0010", MODE="0666", GROUP="input", TAG+="uaccess"
 KERNEL=="hidraw", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0010", MODE="0666", GROUP="input", TAG+="uaccess"
+
+# LAMZU Paro Aurora Mouse - 1K Dongle
+SUBSYSTEM=="input", ATTRS{id/vendor}=="37b0", ATTRS{name}=="LAMZU LAMZU PARO 1K Receiver", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU PARO 1K Receiver Consumer Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU PARO 1K Receiver System Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU PARO 1K Receiver Keyboard", MODE="0666", GROUP="input", TAG+="uaccess"
+
+# LAMZU Paro Aurora Mouse - 8K Dongle
+SUBSYSTEM=="input", ATTRS{id/vendor}=="37b0", ATTRS{name}=="LAMZU LAMZU PARO 1K Receiver", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU Aurora 8K Receiver Consumer Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU Aurora 8K Receiver System Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU Aurora 8K Receiver Keyboard", MODE="0666", GROUP="input", TAG+="uaccess"
+
+# LAMZU Paro Aurora Mouse - Direct Device
+SUBSYSTEM=="input", ATTRS{id/vendor}=="37b0", ATTRS{name}=="LAMZU LAMZU PARO", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU PARO Consumer Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU PARO System Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU PARO Keyboard", MODE="0666", GROUP="input", TAG+="uaccess"
+
+# LAMZU Paro Aurora USB device rules for both dongle and mouse
+SUBSYSTEM=="usb", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="000d", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0001", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0007", MODE="0666", GROUP="input", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="000d", MODE="0666", GROUP="input", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0001", MODE="0666", GROUP="input", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0007", MODE="0666", GROUP="input", TAG+="uaccess"
