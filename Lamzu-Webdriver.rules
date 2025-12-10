@@ -1,3 +1,21 @@
+# LAMZU Maya - 8K Dongle
+SUBSYSTEM=="input", ATTRS{id/vendor}=="3554", ATTRS{name}=="Compx LAMZU 8K Dongle", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="Compx LAMZU 8K Dongle Consumer Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="Compx LAMZU 8K Dongle System Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="Compx LAMZU 8K Dongle Mouse", MODE="0666", GROUP="input", TAG+="uaccess"
+
+# LAMZU Maya - Direct Device (wired)
+SUBSYSTEM=="input", ATTRS{id/vendor}=="3554", ATTRS{name}=="compx LAMZU Maya Champion", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="compx LAMZU Maya Champion Consumer Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="compx LAMZU Maya Champion System Control", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="input", ATTRS{name}=="compx LAMZU Maya Champion Keyboard", MODE="0666", GROUP="input", TAG+="uaccess"
+
+# LAMZU Maya USB device rules for both dongle and wired modes
+SUBSYSTEM=="usb", ATTRS{idVendor}=="3554", ATTRS{idProduct}=="f510", MODE="0666", GROUP="input", TAG+="uaccess"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="3554", ATTRS{idProduct}=="f50f", MODE="0666", GROUP="input", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="3554", ATTRS{idProduct}=="f510", MODE="0666", GROUP="input", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="3554", ATTRS{idProduct}=="f50f", MODE="0666", GROUP="input", TAG+="uaccess"
+
 # LAMZU Maya X Mouse - Dongle
 SUBSYSTEM=="input", ATTRS{id/vendor}=="373e", ATTRS{name}=="LAMZU LAMZU Maya X 8K Dongle", MODE="0666", GROUP="input", TAG+="uaccess"
 SUBSYSTEM=="input", ATTRS{name}=="LAMZU LAMZU Maya X 8K Dongle Consumer Control", MODE="0666", GROUP="input", TAG+="uaccess"
