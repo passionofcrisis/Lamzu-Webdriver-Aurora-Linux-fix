@@ -23,5 +23,5 @@ If you adjusted the code and made another mouse work, please let me know and I w
 
 
 
-**Credits to Gunther and Stics on the Lamzu discord, WingofaGriffin on github**
+**Credits to Gunther, Stics, and minn on the Lamzu discord, WingofaGriffin on github**
 
