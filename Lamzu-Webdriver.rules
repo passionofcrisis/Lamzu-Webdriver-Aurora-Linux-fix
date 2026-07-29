@@ -69,3 +69,11 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0007", MODE="0666"
 KERNEL=="hidraw*", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="000d", MODE="0666", GROUP="input", TAG+="uaccess"
 KERNEL=="hidraw*", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0001", MODE="0666", GROUP="input", TAG+="uaccess"
 KERNEL=="hidraw*", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0007", MODE="0666", GROUP="input", TAG+="uaccess"
+
+# LAMZU Maya Champion Edition - Wireless Receiver (8K Dongle)
+SUBSYSTEM=="usb", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0015", MODE="0666", GROUP="input", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0015", MODE="0666", GROUP="input", TAG+="uaccess"
+
+# LAMZU Maya Champion Edition - Wired Mouse
+SUBSYSTEM=="usb", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0011", MODE="0666", GROUP="input", TAG+="uaccess"
+KERNEL=="hidraw*", ATTRS{idVendor}=="37b0", ATTRS{idProduct}=="0011", MODE="0666", GROUP="input", TAG+="uaccess"
